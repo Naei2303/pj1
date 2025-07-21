@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+        height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        }
+
+        .btn {
+         width: 200px;
+         height: 40px;
+         border-radius: 4px;
+         transition-duration: 0.25s;
+        }
+        .btn:hover {
+            background-color: rgb(227, 232, 233);
+            color: black;
+        }
+    </style>
+    <div class="container">
+        <button id="btn" class="btn" onclick="sus()">Click Me!</button>
+    </div>
+    <script >
+        function sus() {
+            const url = "https://www.youtube.com/watch?v=QDia3e12czc"
+            window.open(url, "_blank")
+        }
+    </script>
+</body>
+</html>
